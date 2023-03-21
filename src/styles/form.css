@@ -1,0 +1,84 @@
+.background {
+   background-color: white;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(223, 223, 224)
+
+}
+
+.bar{
+    width:100%;
+    background-color: rgb(122,127,146);
+    height:20px;
+    margin-bottom: 30px;
+}
+
+.header{
+  color: rgb(6,4,64);
+}
+
+
+.field{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding-bottom: 2%;
+    padding-left: 15% ;
+    padding-right: 15% ;
+
+}
+
+.button {
+   margin-left: 15%;
+   background-color:rgb(251,85,51);
+   color:white;
+   font-weight: 800;
+   margin-top:20px;
+}
+
+.label {
+    color: white;
+    font-size: larger;
+}
+
+.Container {
+    background-color: rgb(6,4,64);
+    width:75%;
+    padding:20px;
+    margin: auto;
+    
+  
+  
+    
+}
+
+.serviceContainer {
+    display:flex;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 50px;
+    margin-left: 11%;
+    margin-right:11%;
+    padding-bottom: 20px;
+}
+
+.serviceTitle{
+ 
+    color: rgb(6,4,64);
+    padding-bottom: 20px;
+}
+
+.listItem {
+    color:black;
+    font-size: medium;
+}
+.listItemCom {
+    color:black;
+    font-size: medium;
+    background-color: rgb(148, 217, 148);
+}

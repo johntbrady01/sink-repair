@@ -1,0 +1,72 @@
+{
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "John"
+    },
+    {
+      "id": 2,
+      "name": "Thomas"
+    },
+    {
+      "id": 3,
+      "name": "Brady"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 1,
+      "plumberId": 1,
+      "date_created": 1679343152016,
+      "id": 1
+    },
+    {
+      "requestId": 2,
+      "plumberId": 3,
+      "date_created": 1679343175932,
+      "id": 2
+    },
+    {
+      "requestId": 4,
+      "plumberId": 2,
+      "date_created": 1679343233999,
+      "id": 3
+    },
+    {
+      "requestId": 3,
+      "plumberId": 1,
+      "date_created": 1679343971224,
+      "id": 4
+    }
+  ],
+  "requests": [
+    {
+      "description": "Fix sink",
+      "address": "OG",
+      "budget": "5",
+      "neededBy": "2023-03-18",
+      "id": 1
+    },
+    {
+      "description": "Fix dryer",
+      "address": "Home",
+      "budget": "2",
+      "neededBy": "2023-03-15",
+      "id": 2
+    },
+    {
+      "description": "Broken tv ",
+      "address": "My tv",
+      "budget": "100000",
+      "neededBy": "2023-03-09",
+      "id": 3
+    },
+    {
+      "description": "Leaky faucet",
+      "address": "My sink",
+      "budget": "20",
+      "neededBy": "2023-03-28",
+      "id": 4
+    }
+  ]
+}
